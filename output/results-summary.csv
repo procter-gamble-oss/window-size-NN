@@ -1,0 +1,44 @@
+task,winsz_pts,method,state_of_art,val_loss,mae,rel_err,f1score,roc_auc,val_acc
+lorenz,    4,SMO,False,,,,,,
+lorenz,    5,Frank,True,   1.759,1.002,0.007,,,
+lorenz,    5,FNN,False,    1.759,1.002,0.007,,,
+lorenz,    8,MAD,False,    1.755,0.975,0.011,,,
+lorenz,   15,THR,False,    2.322,1.028,0.006,,,
+lorenz,   82,GLR,False,   14.291,2.781,0.113,,,
+nilm-kt,   7,SMO,False,,,,,,
+nilm-kt,  19,THR,False,    0.568,0.137,,0.251,,
+nilm-kt,  24,FNN,False,    0.487,0.147,,0.219,,
+nilm-kt,  43,,False,       0.373,0.124,,0.244,,
+nilm-kt,  99,NILMTK,True,  0.339,0.103,,0.243,,
+nilm-kt, 111,Kelly,True,   0.313,0.119,,0.264,,
+nilm-kt, 228,MAD,False,    0.349,0.114,,0.256,,
+nilm-kt, 255,Jiang,True,   0.334,0.111,,0.245,,
+nilm-kt,1162,GLR,False,    0.369,0.137,,0.175,,
+nilm-dw,  99,NILMTK,True,  0.360,0.165,,0.470,,
+nilm-dw, 178,FNN,False,    0.400,0.159,,0.508,,
+nilm-dw, 298,,False,       0.315,0.174,,0.457,,
+nilm-dw, 528,MAD,False,    0.310,0.172,,0.488,,
+nilm-dw, 879,THR,False,    0.361,0.188,,0.411,,
+nilm-dw, 943,SMO,False,,,,,,
+nilm-dw,1023,Jiang,True,   0.332,0.182,,0.458,,
+nilm-dw,1320,Kelly,True,   0.341,0.175,,0.462,,
+nilm-dw,1972,GLR,False,    0.382,0.192,,0.390,,
+nilm-wm,   6,SMO,False,,,,,,
+nilm-wm,  94,,False,       0.907,0.154,,0.408,,
+nilm-wm,  99,NILMTK,True,  0.938,0.165,,0.367,,
+nilm-wm, 106,FNN,False,    0.913,0.164,,0.378,,
+nilm-wm, 400,THR,False,    0.736,0.162,,0.448,,
+nilm-wm, 511,Jiang,True,   0.656,0.172,,0.412,,
+nilm-wm, 874,Kelly,True,   0.806,0.159,,0.395,,
+nilm-wm, 983,MAD,False,    0.777,0.197,,0.358,,
+nilm-wm,1688,GLR,False,    0.856,0.179,,0.303,,
+paf,      10,SMO,False,,,,,,
+paf,      63,FNN,False,    0.117,,,     0.491,0.764,0.942
+paf,      63,THR,False,    0.117,,,     0.491,0.764,0.942
+paf,      85,Kisohara,True,0.149,,,     0.352,0.681,0.951
+paf,      92,MAD,False,    0.139,,,     0.284,0.719,0.951
+paf,     100,,False,       0.150,,,     0.295,0.740,0.947
+paf,     197,GLR,False,    0.124,,,     0.125,0.779,0.942
+paf,     300,Gilon,True,   0.102,,,     0.155,0.869,0.966
+paf,     493,,False,       0.084,,,     0.029,0.780,0.977
+
