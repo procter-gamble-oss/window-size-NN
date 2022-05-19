@@ -37,7 +37,7 @@ def ecg2hrv(sig, freq, adc_gain=None, adc_zero=None):
 
 
 def load_paf_rr(prefixes=[ 'p', 'n', ], pos_prefix='p', cont_suffix='c',
-id_range=range(1, 51, 2), folder="../../AF/datasets/Physionet-PAF/"):
+id_range=range(1, 51, 2), folder="datasets/Physionet-PAF/"):
     # Only use training set because testing set is not labeled.
     # NSR   NSR     before PAF  PAF
     # p15   p15c    p16         p16c
@@ -77,7 +77,7 @@ id_range=range(1, 51, 2), folder="../../AF/datasets/Physionet-PAF/"):
 
 
 def plot_first_ltaf():
-    folder = "../../AF/datasets/Physionet-LTAF/"
+    folder = "datasets/Physionet-LTAF/"
     first = os.path.join(folder, '00')
     record = wfdb.rdrecord(first)
     print(record.__dict__)
@@ -99,7 +99,7 @@ def plot_first_ltaf():
     plt.show()
 
 
-def load_ltaf_rr(id_range=set(range(76)).union(range(100, 123)), max_pts=11000, folder="../../AF/datasets/Physionet-LTAF/"):
+def load_ltaf_rr(id_range=set(range(76)).union(range(100, 123)), max_pts=11000, folder="datasets/Physionet-LTAF/"):
     # 75 patients.
     all_data = {}
     for i in id_range:
