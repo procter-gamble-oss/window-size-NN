@@ -28,13 +28,13 @@ nilmtk.Appliance.allow_synonyms = False
 APPLIANCES = [ 'kettle', 'dish washer', 'washing machine', ]
 DATASETS = {
     "UK-DALE": {
-        "path": "../datasets/UK-DALE/ukdale2017.h5",
+        "path": "datasets/UK-DALE/ukdale2017.h5",
         "buildings": {
             2: { "start_time": "2013-06-07", "end_time": "2013-06-14" },
         },
     },
     "REFIT": {
-        "path": "../datasets/REFIT/refit.h5",
+        "path": "datasets/REFIT/refit.h5",
         "buildings": {
             2: { "start_time": "2014-03-07", "end_time": "2014-03-14" },
             3: { "start_time": "2014-09-08", "end_time": "2014-09-15" },
