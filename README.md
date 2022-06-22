@@ -48,9 +48,13 @@ pip install -r requirements.txt
 3. Install NILMTK from the source.
 ```bash
 git clone https://github.com/nilmtk/nilm_metadata.git
-python3 setup.py develop # don't install but symlink the repo
+cd nilm_metadata
+python3 setup.py develop # will symlink the repo instead of installing
+cd ..
 git clone https://github.com/nilmtk/nilmtk.git
+cd nilmtk
 python3 setup.py develop
+cd ..
 ```
 
 4. Download the datasets for NILM and PAF use cases.
