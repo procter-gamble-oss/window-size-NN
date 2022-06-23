@@ -38,7 +38,7 @@ representation.
 1. Create a virtual environment and activate it.
 ```bash
 python3 -m venv .venv
-.venv/bin/activate
+source .venv/bin/activate
 ```
 
 2. Install the required packages.
@@ -53,7 +53,7 @@ python3 setup.py develop # will symlink the repo instead of installing
 cd ..
 git clone https://github.com/nilmtk/nilmtk.git
 cd nilmtk
-python3 setup.py develop
+python3 setup.py develop --no-deps
 cd ..
 ```
 
